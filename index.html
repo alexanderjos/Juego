@@ -38,7 +38,9 @@
             } else {
                 errorMessage.style.display = "none";
                 // Redirige a index.html
-                window.location.href = "juego.html";
+                //localstorage guarda el nombre del jugador
+                localStorage.setItem("nickname", nicknameInput.value);
+                window.location.href = "menu.html";
             }
         }
     </script>

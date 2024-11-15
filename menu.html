@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Principal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="menu-container">
+        <h1 class="animate__animated animate__bounce">Adivina, Adivinador</h1>
+        <div class="menu-options">
+            <button class="menu-button" onclick="startGame()">Jugar</button>
+            <button class="menu-button" onclick="viewScores()">Ver Puntajes</button>
+            <button class="menu-button" onclick="showInstructions()">Instrucciones</button>
+        </div>
+    </div>
+    <script>
+        function startGame() {
+            window.location.href = "animales.html"; // Comienza desde el primer nivel
+        }
+
+        function viewScores() {
+            alert("Funcionalidad de puntajes en desarrollo."); // Placeholder para mostrar puntajes
+        }
+
+        function showInstructions() {
+            alert("Instrucciones: Adivina el animal viendo la imagen y escribiendo su nombre."); // Breve mensaje
+        }
+    </script>
+</body>
+</html>
